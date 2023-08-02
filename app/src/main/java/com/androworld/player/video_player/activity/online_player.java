@@ -290,6 +290,7 @@ online_player extends AppCompatActivity {
                 } else if (error instanceof AuthFailureError) {
                 } else if (error instanceof ParseError) {
                 } else if (error instanceof NoConnectionError) {
+
                 } else if (error instanceof TimeoutError) {
                 }
             }
